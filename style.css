@@ -1,0 +1,657 @@
+body { 
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #51555A;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    color: #1E1901;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EF1D00;
+    text-decoration: underline;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    background-color: #FECE00;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+    border-radius: 5px;
+    background-color: #FEFDF8;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Объявление сетки для заголовка */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Объявить div для меню в header и footer*/
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Media Query разрешение на 320px */
+@media screen and (max-width: 320px) {
+    .main-menu {
+        flex-direction: column;
+    }
+}
+
+/* Выравнивать элементы и текст по центру с помощью align-items*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Убрать:
+
+/* Выравнять кнопку по правому краю с помощью float*/
+.btn {
+    float: right;
+}
+/* Header */
+.site-header {
+display: flex;
+justify-content: space-evenly;
+}
+
+/* Menu */
+.menu {
+margin: 0;
+list-style-type: none;
+}
+.menu li {
+display: inline-block;
+margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+text-align: center;
+padding: 30px 0;
+}
+body {
+  background-image: radial-gradient(circle, #00cc99, #006633);
+  background-repeat: repeat-x;
+}
+
+.site-header {
+  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.1), rgba(255,255,255,0.1) 10px, rgba(0,0,0,0.01) 10px, rgba(0,0,0,0.01) 20px);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: #4FB8A4;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover  {
+    color: #07728D;
+}
+
+header {
+    background-color: #043D64;
+    padding: 20px 0;
+}
+
+.title {
+    color: #fff;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1080px;
+}
+
+.inner {
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 8px 18px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.logo img {
+  filter: brightness(90%);
+}
+
+h1 {
+  text-shadow: 0 2px 4px rgba(38, 38, 38, 0.15);
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: #3F53B9;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    color: #4A4A4A;
+    margin: 1.5em 0;
+} 
+
+a {
+    font-size: 1em;
+    color: #274E67;
+}
+
+button {
+    background-color: #25B2B2;
+    font-size: 1em;
+    color: #FFF;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    border: 2px solid #274E67;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+    color: #FFF;
+    font-size: 1em;
+    padding: 0.5em 1.5em;
+    border-radius: 3px;
+    border: 2px solid #3F53B9;
+    background-color: #274E67;
+    outline: none;
+}
+
+
+
+footer {
+    background-color: #ECF1F5;
+    color: #104E54;
+    padding: 1em;
+}
+.nav
+{
+height: 70px;
+padding: 0px 15px 0px 15px;
+background-color: #69727F;
+overflow: hidden;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo img { 
+    max-height: 45px;
+    margin: 0 auto;
+}
+
+
+
+header img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .nav {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header .nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; 
+    display: inline-block;  
+}
+
+header .nav ul li {
+    padding: 10px;
+    display: inline-block;
+}
+
+header .nav ul li a {
+    color: #3b5998;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header .nav ul li {
+    padding: 10px;
+    display: inline-block;
+}
+
+header .nav ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav{
+ background-color: #ffb524;
+ margin-top: 0;
+ margin-bottom: 0;
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+
+/* Стиль для десктопной версии */
+
+nav li {
+  display: inline-block;
+  margin-left: 15px;
+  position: relative;
+  font-size: 18px;
+}
+
+/* Стиль для мобильной версии */
+
+@media screen and (max-width: 767px){
+ nav li {
+  display: block;
+  margin-left: 0px;
+  position: inherit;
+  font-size: 18px;
+ }
+}
+
+
+/* Styles for Menu at Cherry Design */
+
+#menu {
+  background-color: #f25607;
+  min-width: 100%;
+  max-width: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding: 1rem;
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  line-height: 1.3;
+  text-align: center;
+
+  @media (min-width: 700px) {   
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+}
+ 
+#menu li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+
+#menu a {
+  color: #212121;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: #f25607;
+}
+
+nav ul {
+  background: #7ac143;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  text-align: center;
+}
+
+nav ul li:first-child a {
+  background:#7ac143;
+  width: 50px;
+  padding: 15px 0;
+}
+
+nav ul li:last-child { margin: 0; }
+
+nav ul li a {
+  display: block;
+  background: #6cb432;
+  padding: 17px 19px;
+  color: #FFF;
+  font-weight: 700;
+text-transform: uppercase;
+font-size: 17px;
+
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+nav ul li a:hover {
+  background: #6cb432;
+}
+
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 240px;
+  border-bottom: 4px solid #2f64a5;
+}
+
+nav ul li ul li {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+nav ul li ul li a {
+  display: block;
+  background: #2c3e50;
+  padding: 10px 15px;
+}
+
+nav ul li ul li a:first-child {
+  background: #1a2733;
+  width: auto;
+  border-left: 4px solid transparent;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+nav ul li ul li a:hover {
+  background: #2b3e50;
+  border-left: 4px solid #5d96c3;
+}
+
+.site-header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.site-header a:hover {
+    color: #000;
+}
+
+.site-header .logo {
+    width: 150px
+    display: inline-block;
+}
+
+.site-header .menu {
+    display: flex;
+
+}
+
+.site-header .menu a {
+    padding: 10px 20px;
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+.site-header .menu a:hover {
+    background-color: #999999;
+    color: #000;
+    text-decoration: none;
+}
+.site-header {
+
+  background-color: #e28613;
+  padding: 15px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold; 
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.15);
+}
+header {
+    background-color: #f5f5fa;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+header img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .nav {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header .nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0; 
+    display: inline-block;  
+}
+
+header .nav ul li {
+    padding: 10px;
+    display: inline-block;
+}
+
+header .nav ul li a {
+    color: #3b5998;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #45461B;
+  margin-bottom: 10px;
+  position: relative;
+  left: -25px;
+  font-family: Verdana;
+}
+.text-block h2 {
+    font-size: 18px;
+    margin-left: 0;
+    border-left: 0;
+}
+элемента */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Добавляем стиль плавного перехода при наведении мышкой */
+a:hover {
+  transform: translateY(-10px);
+}
+/* Цветовая палитра */
+body {
+  background-color: #e2e2e2;
+  color: #4d4d4d;
+}
+
+h1 {
+  color:#3b92ff;
+}
+
+h2 {
+  color: #f7c43a;
+}
+
+a {
+  color: #82fcf2;
+}
+
+/* Обновить меню */
+.menu {
+  position: fixed;
+  background-color: #fcfdff;
+  box-shadow: 0px 4px 4px #eceff7;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 10px;
+  list-style: square;
+}
+
+.menu li { 
+  padding: 10px 0;
+}
+
+/* Запретить масштабирование */
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+/* Разделить страницы */
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Предыдущее меню */
+.menu {
+
+  background-color: #2a3136; 
+  box-shadow: 0px 0px 0px #000000; 
+  display: block; 
+  list-style: none;
+}
+
+.menu li { 
+  padding: 5px 0; 
+}
+*/
+button, nav ul li a {
+  transition: all 0.5s ease; 
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+  font-family: sans-serif;
+  &:hover {
+    background: #666; 
+    color: #FFF;
+  } 
+}
+
+/* Добавляем анимацию для объектов при наведении */
+.banner {
+  transition: all 0.5s ease;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+/* Добавляем анимацию для объектов при изменении размера */
+.logo {
+  transition: all 0.5s ease;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+/* Убираем стандартное подчеркивание у ссылок */
+a {
+  text-decoration: none;
+}
+.btn, .menu-item {
+    transition: all 0.5s ease;
+}
+.btn:hover, .menu-item:hover {
+    background-color: #00e500;
+    opacity: 0.8;
+}
+
+/* Анимация при размерных изменениях */
+.img-container img {
+    transition: all 0.5s ease;
+    transform: scale(1);
+}
+.img-container img:hover {
+    transform: scale(1.2);
+}
+.menu-item a {
+    font-size: 12px;
+    border: none;
+    padding: 11px 0;
+}
+.menu-item a:hover {
+    opacity: 1;
+}
+
+
+

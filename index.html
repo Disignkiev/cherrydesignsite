@@ -1,0 +1,85 @@
+<?php
+// Начало страницы
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jqscript.js"></script>
+<link href"'https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+
+    <title>Главная страница</title>
+</head>
+<body>
+<div id="header" class="site-header">
+  
+  <ul class="menu">
+    <li><a href="#">Настройки</a></li>
+    <li><a href="#">Поддержка</a></li>
+    <li><a href="#">FAQ</a></li>
+    <li><a href="#">О нас</a></li>
+  </ul>
+
+<img class=logo" src="5.png" width="500" height=auto border="0">
+</div>
+
+   <nav class="animated flipInX">
+
+  <ul>
+
+    <li><a href="#"><div class="fa fa-home"></div></a></li>
+    <li><a href="#">Каталог</a></li>
+    <li class="sub-menu"><a href="#">Учётная запись<i class="fa fa-angle-down"></i></a>
+      <ul>
+        <li><a href="#">Просмотр личных данных</a></li>
+        <li><a href="#">История заказов</a></li>
+        <li><a href="#">Адреса доставки</a></li>
+        <li><a href="#">Изменение учётной записи</a></li>
+      </ul>
+    </li>
+    <li class="sub-menu"><a href="#">Оплата<i class="fa fa-angle-down"></i></a>
+      <ul>
+        <li><a href="#">Выбор способа оплаты</a></li>
+        <li><a href="#">Подтверждение реквизитов<</i></a></li>
+      </ul>
+    </li>
+    <li class="sub-menu"><a href="#">Статус заказа<i class="fa fa-angle-down"></i></a>
+      <ul>
+        <li><a href="#">Отследить состояние</a></li>
+        <li><a href="#">Уведомления</a></li>
+      </ul>
+    </li>
+    <li class="sub-menu"><a href="#">Доставка<i class="fa fa-angle-down"></i></a>
+      <ul>
+        <li><a href="#">Выбор удобного случая</a></li>
+        <li><a href="#">Оформление</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">Онлайн редактор</a></li>
+    <li class="sub-menu"><a href="#">Поиск<i class="fa fa-angle-down"></i></a>
+      <ul>
+        <li><a href="#">Рекламные акции</a></li>
+        <li><a href="#">Рекламные идеи</a></li>
+        <li><a href="#">Рекламные компоновки</a></li>
+        <li><a href="#">Автоматическое распространение рекламы</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div class="text-block" >
+ <h2>&nbsp;"Cherry Design &ndash; Ваше решение для успешного бизнеса".</h2>
+<h3>&nbsp; Cherry Design &ndash; лучшее рекламное агентство, которое подходит для ваших целей. Позвольте нам помочь Вам улучшить ваш бизнес с помощью высокое качество работы и отличной продукции. Мы используем самые последние маркетинговые инструменты, поэтому вы можете смело обращаться к нам для различных рекламных работ, от изготовления чашек с фото и картин на холсте до продвижения малого и среднего бизнеса. Добро пожаловать на сайт <a class="anchor-url" href="https://cherrydesign.top/" target="_blank" rel="noopener noreferrer">Cherrydesign.top</a> &ndash; мы поможем вам достичь успеха!</h3>
+</div>
+<script>$('.sub-menu ul').hide();
+$(".sub-menu a").click(function () {
+  $(this).parent(".sub-menu").children("ul").slideToggle("200");
+  $(this).find("i.fa").toggleClass("fa-angle-up fa-angle-down");
+}); </script>
+
+
+ 
+</body>
